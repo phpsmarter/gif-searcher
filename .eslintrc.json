@@ -1,0 +1,36 @@
+{
+    "extends": [
+        "eslint:recommended"
+    ],
+    "plugins": [
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "arrowFunctions": true,
+            "blockBindings": true,
+            "classes": true,
+            "defaultParams": true,
+            "destructuring": true,
+            "forOf": true,
+            "generators": true,
+            "modules": true,
+            "spread": true,
+            "templateStrings": true,
+            "jsx": true
+        }
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "no-unused-vars": 0,
+        "no-alert": 0,
+        "no-lone-blocks": 0
+    }
+}
